@@ -5,6 +5,9 @@ import Videoo from './componentes/Video';
 function App() {
   return (
     <div>
+      <head>
+        <meta property="og:image" content="./1.png" />
+      </head>
       <div className="jumbotron inner-header flex">
         <div className="container">
           <h2><span>♡ NOSOTROS ♡</span></h2>
