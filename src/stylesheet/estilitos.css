@@ -2,12 +2,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     user-select: none;
-    background-color: var(--verde);
+    background: rgb(0, 0, 0);
+    background: #202020;
+}
+
+* {
+    color: var(--amarillo) !important;
 }
 
 :root {
-    --wachuga: red;
-    --amarillo: #fdf8f5;
+    /* --amarillo: #fdf8f5; */
+    --amarillo: #ff8257;
     --negro: black;
     --descripcion: #131313;
     --fondo: #000000de;
@@ -107,6 +112,7 @@ p {
 /* Cambia la apariencia de la barra de desplazamiento */
 ::-webkit-scrollbar {
     width: 13px;
+    background-color: #202020;
     z-index: 4;
 }
 

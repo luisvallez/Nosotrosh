@@ -10,7 +10,7 @@ function App() {
       </head>
       <div className="jumbotron inner-header flex">
         <div className="container">
-          <h2><span>♡ NOSOTROS ♡</span></h2>
+          <h2><span>🎃 NOSOTROS 🎃</span></h2>
           <h5 id="expertise">con mucho mucho amor</h5>
         </div>
         <div className="container">
